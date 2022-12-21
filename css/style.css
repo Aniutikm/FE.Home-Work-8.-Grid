@@ -1,0 +1,123 @@
+:root{
+    --black: black;
+}
+body{
+    background-color: #FFB084;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    margin: 27px 40px;
+    display: grid;
+    column-gap: 22px;
+    grid-template-columns: 1.2fr 2fr;
+    height: 100%;
+}
+#card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4% 5%;
+    box-sizing: border-box;
+}
+.first-column {
+    display: grid;
+    grid-template-rows: 0.8fr 0.2fr;
+    row-gap: 18px;
+}
+
+.second-column {
+    display: grid;
+    grid-template-rows: 0.3fr 0.7fr;
+    row-gap: 18px;
+}
+
+.second-column-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 22px;
+}
+
+.second-column-bottom1 {
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    row-gap: 18px;
+}
+
+.second-column-bottom2 {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    row-gap: 18px;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.text span{
+    font-weight: 600;
+}
+.text>div{
+    line-height: 3rem;
+}
+.title-johny{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.johny-text span{
+font-size: 12px;
+font-weight: 600;
+}
+.block-johny{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px black;
+}
+.block-johny>img{
+    width: 50%;
+    align-self: center;
+}
+.block-quote{
+    box-shadow: 10px 10px black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.block-bio{
+    box-shadow: 10px 10px black;
+}
+.block-goals{
+    box-shadow: 10px 10px #29A71E;
+}
+.block-dream{
+    box-shadow: 10px 10px #3675B0;
+}
+.block-frustrations{
+    box-shadow: 10px 10px #E13535;
+}
+.block-personality{
+    box-shadow: 10px 10px black;
+}
+.bio-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.goals-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #29A71E;
+}
+.dream-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #3675B0;
+}
+.frustrations-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #E13535;
+}
+.personality-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
